@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About my blog - Gowtham</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    
+        .header {
+            background-color: crimson;
+            color: #ffffff;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+    
+        .header a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    
+        .content-container {
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            width: 100%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            flex: 1;
+        }
+    
+        .content-container h1 {
+            margin: 0 0 30px;
+            font-size: 32px;
+            text-align: center;
+            color: #2c3e50;
+        }
+    
+        .content-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #34495e;
+        }
+    
+        footer {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add some padding for spacing */
+    margin-top: 20px; /* Add a margin on top to separate it from the content */
+}
+
+    
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .content-container {
+                padding: 30px;
+                margin: 90px auto 20px;
+            }
+    
+            .header {
+                font-size: 22px;
+                padding: 15px;
+            }
+    
+            .content-container h1 {
+                font-size: 26px;
+            }
+    
+            .content-container p {
+                font-size: 16px;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            .content-container {
+                padding: 25px 15px;
+                margin: 80px auto 15px;
+            }
+    
+            .header {
+                font-size: 20px;
+                padding: 12px;
+            }
+    
+            .content-container h1 {
+                font-size: 24px;
+            }
+    
+            .content-container p {
+                font-size: 15px;
+            }
+    
+            footer {
+                padding: 0.8rem 0;
+                font-size: 14px;
+            }
+        }
+    
+        @media (max-width: 360px) {
+            .content-container {
+                padding: 20px 10px;
+                margin: 70px auto 10px;
+            }
+    
+            .header {
+                font-size: 18px;
+                padding: 10px;
+            }
+    
+            .content-container h1 {
+                font-size: 22px;
+            }
+    
+            .content-container p {
+                font-size: 14px;
+            }
+    
+            footer {
+                padding: 0.6rem 0;
+                font-size: 13px;
+            }
+        }
+    
+        @media (max-width: 320px) {
+            .content-container {
+                padding: 15px 8px;
+                margin: 60px auto 5px;
+            }
+    
+            .header {
+                font-size: 16px;
+                padding: 8px;
+            }
+    
+            .content-container h1 {
+                font-size: 20px;
+            }
+    
+            .content-container p {
+                font-size: 13px;
+            }
+    
+            footer {
+                padding: 0.5rem 0;
+                font-size: 12px;
+            }
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Gowtham's Blog</a>
+    </div>
+    <div class="content-container">
+        <h1>Know About My Blog</h1>
+        <p>Hi, this is Gowtham and I'm from Vignan's University, Guntur. I'm studying 3rd year of B.Tech in CSE. </p>
+        <p>In my blog you can see all movie related information like reviews, trailers and much more. Whenever a new movie releasees, i'll watch and post my review about it.</p>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
